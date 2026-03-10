@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import  "./App.scss"
 import Dock from './components/Dock'
+import Github from './components/Windows/Github'
 
-import MacWindow from './components/Windows/MacWinodw'
+
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
     <Dock />
   
 
-    <MacWindow/>
+   <Github /> 
   </main>
   )
 }
