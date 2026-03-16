@@ -5,7 +5,7 @@ import Github from './components/Windows/Github'
 import Nav from './components/Windows/Nav'
 import Note from './components/Windows/Note'
 import Resume from './components/Windows/Resume'
-
+import Spotify from './components/Windows/Spotify'
 
 
 function App() {
@@ -16,8 +16,9 @@ function App() {
   <Nav />
 
    <Github /> 
-   <Note/>
-    <Resume />
+      <Note/>
+        <Resume />
+        <Spotify />
   </main>
   )
 }
